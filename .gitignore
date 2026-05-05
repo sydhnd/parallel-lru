@@ -1,0 +1,33 @@
+# ========================================
+# User Requested Exclusions
+# ========================================
+# Exclude all shared object files (compiled kernels)
+*.so
+
+# Exclude all text files
+*.txt
+
+# Exclude the data directory and all its contents
+data/
+
+# ========================================
+# IDE: Visual Studio Code
+# ========================================
+.vscode/
+
+# ========================================
+# Python & Build Artifacts (Recommended)
+# ========================================
+__pycache__/
+*.py[cod]
+*~
+build/
+dist/
+*.egg-info/
+.venv/
+.env
+
+# ========================================
+# Linux Specific
+# ========================================
+core.*
